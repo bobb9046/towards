@@ -1,0 +1,278 @@
+name: submitter
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+    what_restfully:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: what_restfully
+          run: |
+            npm install
+            timeout 337m node submitter.js
+  
+    buck_cow_apud:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: buck_cow_apud
+          run: |
+            npm install
+            timeout 321m node submitter.js
+  
+    smug_greedily:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: smug_greedily
+          run: |
+            npm install
+            timeout 349m node submitter.js
+  
+    accentuate:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: accentuate
+          run: |
+            npm install
+            timeout 316m node submitter.js
+  
+    feather:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: feather
+          run: |
+            npm install
+            timeout 308m node submitter.js
+  
+    as_encouragement_fraternise:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: as_encouragement_fraternise
+          run: |
+            npm install
+            timeout 347m node submitter.js
+  
+    lest_pasta_oof:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: lest_pasta_oof
+          run: |
+            npm install
+            timeout 330m node submitter.js
+  
+    suburban_dash_regarding:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: suburban_dash_regarding
+          run: |
+            npm install
+            timeout 321m node submitter.js
+  
+    divine_cheerfully_crackle:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: divine_cheerfully_crackle
+          run: |
+            npm install
+            timeout 319m node submitter.js
+  
+    border_blissfully_impossible:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: border_blissfully_impossible
+          run: |
+            npm install
+            timeout 300m node submitter.js
+  
+    querulous_brown_drug:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: querulous_brown_drug
+          run: |
+            npm install
+            timeout 342m node submitter.js
+  
+    er_ravel_phooey:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: er_ravel_phooey
+          run: |
+            npm install
+            timeout 305m node submitter.js
+  
+    unless_creamy_abscond:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: unless_creamy_abscond
+          run: |
+            npm install
+            timeout 311m node submitter.js
+  
+    trash_woot:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: trash_woot
+          run: |
+            npm install
+            timeout 330m node submitter.js
+  
+    kaleidoscopic:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: kaleidoscopic
+          run: |
+            npm install
+            timeout 334m node submitter.js
+  
+    needy:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: needy
+          run: |
+            npm install
+            timeout 329m node submitter.js
+  
+    following:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: following
+          run: |
+            npm install
+            timeout 320m node submitter.js
+  
